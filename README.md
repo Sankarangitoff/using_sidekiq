@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+install ubuntu if not
 
-Things you may want to cover:
+open ubuntu terminal
+install the sidekiq and redis gem
 
-* Ruby version
+Create a new rails app (class_sidekiq)
 
-* System dependencies
+check if there are 
+rails , ruby , sidekiq, redis
 
-* Configuration
+create models for student , subject, quiz , aasignments, exams
 
-* Database creation
+also create student_controller
 
-* Database initialization
+run the rails server
+create required methods in studentcontroller
 
-* How to run the test suite
+create db
+use rails c
+migrate the db
+modify the migrations
 
-* Services (job queues, cache servers, search engines, etc.)
+modify the routes
 
-* Deployment instructions
+start the redis server
 
-* ...
+start sidekiq
+
+curl the api
+
+get the result
